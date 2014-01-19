@@ -39,7 +39,7 @@
 		$messageBody = strip_tags($messageBody);
 	}
 	
-	if($host=="" or $username=="" or $password==""){
+	if($host=="" or $username=="mk23007" or $password=="SAvannah..07"){
 		$owner_email = $_POST["owner_email"];
 		$headers = 'From:' . $_POST["email"] . "\r\n" . 'Content-Type: text/plain; charset=UTF-8' . "\r\n";
 		$subject = 'A message from your site visitor ' . $_POST["name"];
